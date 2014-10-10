@@ -52,29 +52,31 @@ Konfigurācija atrodas ```config.php``` failā.
 
 ### Mapping
 
-<table><tr><td>UCM</td><td>Type</td><td>Sendigo</td><td>Sample</td><td>Notes</td></tr><tr><td>dDocTitle</td><td>VARCHAR2(255)</td><td>CustomerName / Account No / Contact Date</td><td>RIINA SOIDLA / 0839200000 / 2014.09.10</td><td>&nbsp;</td></tr><tr><td>dDocAuthor</td><td>VARCHAR2(255)</td><td>&quot;sendigo_user&quot;</td><td>sendigo_user</td><td>Servcie user name</td></tr>
-<tr><td>dDocName</td><td>VARCHAR2(31)</td><td>(UCM auto generated)</td><td>(auto)</td><td>&nbsp;</td></tr><tr><td>dSecurityGroup</td><td>VARCHAR2(255)</td><td>&quot;LE_EE&quot; or &quot;LE_LT&quot;</td><td>LE_EE</td><td>&nbsp;</td></tr><tr><td>primaryFile</td><td>VARCHAR2(255)</td><td>(filename)</td><td>839200000.pdf</td><td>&nbsp;</td></tr>
-<tr><td>dDocAccount</td><td>VARCHAR2(255)</td><td>&quot;Elektrum_EE&quot; or &quot;Elektrum_LT&quot;</td><td>Elektrum_EE</td><td>&nbsp;</td></tr>
-<tr><td>dDocType</td><td>VARCHAR2(30)</td><td>&quot;MASSPROLONGATION&quot;</td><td>MASSPROLONGATION</td><td>&nbsp;</td></tr>
-<tr><td>xldcProfile</td><td>VARCHAR2(30)</td><td>&quot;sendigo&quot;</td><td>sendigo</td><td>&nbsp;</td></tr>
-<tr><td>xChannelIn</td><td>&nbsp;</td><td>&nbsp;</td><td>(empty)</td><td>&nbsp;</td></tr>
-<tr><td>xChannelOut</td><td>&nbsp;</td><td>&quot;email&quot;</td><td>email</td><td>&nbsp;</td></tr>
-<tr><td>xCountry</td><td>VARCHAR2(30)</td><td>&quot;Estonia&quot; or &quot;Lithuania&quot;</td><td>Estonia</td><td>From excel</td></tr>
-<tr><td>xCustomerName</td><td>VARCHAR2(200)</td><td>&nbsp;</td><td>RIINA SOIDLA</td><td>From excel</td></tr>
-<tr><td>xCustomerType</td><td>VARCHAR2(30)</td><td>&quot;Private&quot; or &quot;Business&quot;</td><td>Private</td><td>From excel</td></tr>
-<tr><td>xCustomerCode</td><td>VARCHAR2(30)</td><td>&nbsp;</td><td>45706076520</td><td>From excel</td></tr>
-<tr><td>xCustomerEIC</td><td>VARCHAR2(30)</td><td>&nbsp;</td><td>38X-AVP-71F200E7</td><td>From excel</td></tr>
-<tr><td>dInDate</td><td>VARCHAR2(26)</td><td>(UCM auto generated)</td><td>(auto)</td><td>&nbsp;</td></tr>
-<tr><td>xCCBAccountID</td><td>VARCHAR2(250)</td><td>AccountId</td><td>0839200000</td><td>From excel</td></tr>
-<tr><td>xContractID</td><td>VARCHAR2(250)</td><td>AccountId</td><td>0839200000</td><td>From excel</td></tr>
-<tr><td>xDocModified</td><td>VARCHAR2(26)</td><td>Not filled</td><td>(auto)</td><td>&nbsp;</td></tr>
-<tr><td>xContactDate</td><td>&nbsp;</td><td>&nbsp;</td>
-<td>10.09.2014</td><td>From excel</td></tr>
-<tr><td>xOfferExpirationDate</td><td>&nbsp;</td><td>&nbsp;</td>
-<td>30.09.2014</td><td>From excel</td></tr>
-<tr><td>xCampaignId</td><td>&nbsp;</td><td>&nbsp;</td>
-<td>1</td><td>From excel</td></tr>
-<tr><td>xAccountManagerName</td><td>&nbsp;</td><td>&nbsp;</td><td>(not defined)</td><td>From excel</td></tr></table>
+| UCM           | Type           | Sendigo               | Sample                | Notes
+| ------------- | -------------- | --------------------- | --------------------- | ---------------------
+| dDocTitle     | VARCHAR2(255)  | CustomerName / Account No / Contact Date | RIINA SOIDLA / 0839200000 / 2014.09.10
+| dDocAuthor    | VARCHAR2(255)  | "sendigo_user"        | sendigo_user | Servcie user name
+| dDocName      | VARCHAR2(31)   | (UCM auto generated)  | (auto) 
+| dSecurityGroup| VARCHAR2(255)  | "LE_EE" or "LE_LT"    | LE_EE
+| primaryFile   | VARCHAR2(255)  | (filename)            | 839200000.pdf
+| dDocAccount   | VARCHAR2(255)  | "Elektrum_EE" or "Elektrum_LT" | Elektrum_EE
+| dDocType      | VARCHAR2(30)   | "MASSPROLONGATION"    | MASSPROLONGATION
+| xldcProfile   | VARCHAR2(30)   | "sendigo" | sendigo
+| xChannelIn    |                |                       | (empty)
+| xChannelOut   |                | "email"               | email
+| xCountry      | VARCHAR2(30)   | "Estonia" or "Lithuania" | Estonia | From excel
+| xCustomerName | VARCHAR2(200)  |                       | RIINA SOIDLA | From excel
+| xCustomerType | VARCHAR2(30)   | "Private" or "Business" | Private | From excel
+| xCustomerCode | VARCHAR2(30)   |                       | 45706076520 | From excel
+| xCustomerEIC  | VARCHAR2(30)   |                       | 38X-AVP-71F200E7 | From excel
+| dInDate       | VARCHAR2(26)   | (UCM auto generated)  | (auto)
+| xCCBAccountID | VARCHAR2(250)  | AccountId             | 0839200000 | From excel
+| xContractID   | VARCHAR2(250)  | AccountId             | 0839200000 | From excel
+| xDocModified  | VARCHAR2(26)   | Not filled            | (auto)
+| xContactDate  |                |                       | 10.09.2014 | From excel
+| xOfferExpirationDate |         |                       | 30.09.2014 | From excel
+| xCampaignId   |                |                       | 1 | From excel
+| xAccountManagerName |          |                       | (not defined) | From excel
 
 ---
 
