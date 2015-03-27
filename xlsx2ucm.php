@@ -35,10 +35,10 @@ date_default_timezone_set('Europe/London');
 
 // Ph9glINo
 // Include PHPExcel_IOFactory
-require_once dirname(__FILE__) . './Classes/PHPExcel/IOFactory.php';
+require_once dirname(__FILE__) . DIRECTORY_SEPARATOR.'Classes'.DIRECTORY_SEPARATOR.'PHPExcel'.DIRECTORY_SEPARATOR.'IOFactory.php';
 // Include SOAP
-require_once dirname(__FILE__) . './Classes/soa_ucm.php';
-require_once dirname(__FILE__) . './config.php';
+require_once dirname(__FILE__) . DIRECTORY_SEPARATOR.'Classes'.DIRECTORY_SEPARATOR.'soa_ucm.php';
+require_once dirname(__FILE__) . DIRECTORY_SEPARATOR.'config.php';
 
 $filename = '';
 $env = '';
