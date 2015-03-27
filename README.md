@@ -86,6 +86,8 @@ Nokopēt falus ```files/``` folderī un palaist skriptu:
 
     php -f xlsx2ucm.php dev files/...xlsx  > files/...`date +"%Y%m%d%H%M%S"`.log
 
+Nokopēt ```input_sendigo.csv``` uz ```l-vm-388``` serveru ```sendigo/input``` folderī.
+
 ## Minimālas sistēmas prasības
 
 * PHP
